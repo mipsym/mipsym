@@ -1,6 +1,6 @@
 <Updates>
  <ApplicationName>MIPSym</ApplicationName>
- <ApplicationVersion>2.05</ApplicationVersion>
+ <ApplicationVersion>2.05.1519</ApplicationVersion>
  <Checksum>true</Checksum>
  <PackageUpdate>
   <Name>com.mipsym.simgui</Name>
