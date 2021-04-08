@@ -1,0 +1,19 @@
+<Updates>
+ <ApplicationName>MIPSym</ApplicationName>
+ <ApplicationVersion>2.05</ApplicationVersion>
+ <Checksum>true</Checksum>
+ <PackageUpdate>
+  <Name>com.mipsym.simgui</Name>
+  <DisplayName>MIPSym</DisplayName>
+  <Description>MIPSym: a MIPS R2000 Simulator and IDE</Description>
+  <Version>2.05.1519</Version>
+  <ReleaseDate>2021-04-08</ReleaseDate>
+  <Default>true</Default>
+  <ForcedInstallation>true</ForcedInstallation>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="16336151" UncompressedSize="61272806" OS="Any"/>
+  <DownloadableArchives>MIPSym_pkg.7z</DownloadableArchives>
+  <UserInterfaces>ShortcutsNFileAssociationForm.ui,PostInstallForm.ui</UserInterfaces>
+  <SHA1>a4f749580efce38444b924d2416fb736e65f9249</SHA1>
+ </PackageUpdate>
+</Updates>
