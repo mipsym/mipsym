@@ -11,9 +11,9 @@
   <Default>true</Default>
   <ForcedInstallation>true</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="16336528" UncompressedSize="61270246" OS="Any"/>
+  <UpdateFile OS="Any" UncompressedSize="63929062" CompressedSize="17121200"/>
   <DownloadableArchives>MIPSym_pkg.7z</DownloadableArchives>
   <UserInterfaces>ShortcutsNFileAssociationForm.ui,PostInstallForm.ui</UserInterfaces>
-  <SHA1>38750b0d197e6fb13547581f480bd0f743b53bea</SHA1>
+  <SHA1>fcd51399e3f18fe4d35c18f3f8a6a7e595b20792</SHA1>
  </PackageUpdate>
 </Updates>
