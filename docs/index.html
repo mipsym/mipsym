@@ -16,7 +16,7 @@
 
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script>$(document).ready(function(){if(navigator.appVersion.indexOf("Win")!==-1)choose_tab("Windows");else if(navigator.appVersion.indexOf("Mac")!==-1)choose_tab("Mac_OS_beta");else choose_tab("Linux_beta");});function choose_tab(a){$("#"+a+"-tab").tab("show");}function trackDownload(a){ga('send',{hitType:'event',eventCategory:'Downloads',eventLabel:a});}</script>
+    <script>$(document).ready(function(){if(navigator.appVersion.indexOf("Win")!==-1)choose_tab("Windows");else if(navigator.appVersion.indexOf("Mac")!==-1)choose_tab("Mac_OS");else choose_tab("Linux");});function choose_tab(a){$("#"+a+"-tab").tab("show");}function trackDownload(a){ga('send',{hitType:'event',eventCategory:'Downloads',eventLabel:a});}</script>
 </head>
 <body>
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
@@ -73,18 +73,20 @@
               <thead>
                 <tr>
                   <th>Download Link</th>
+                  <th>Version</th>
                   <th>Size</th>
                   <th>Upload Date</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td><a href="https://github.com/mipsym/mipsym/releases/download/2.05.1519/MIPSym_2.05.1519_Installer.exe">MIPSym_2.05.1519_Installer.exe</a></td>
+                  <td><a href="https://github.com/mipsym/mipsym/releases/download/2.05.1519/MIPSym_Win_Installer.exe">MIPSym_Win_Installer.exe</a></td>
+                  <td>2.05.1519</td>
                   <td>37.23M</td>
-                  <td>2021-04-09</td>
+                  <td>2021-04-14</td>
                 </tr>
                 <tr>
-                  <td colspan="3"><a href="https://github.com/mipsym/mipsym/releases">All releases</a></td>
+                  <td colspan="4"><a href="https://github.com/mipsym/mipsym/releases">All releases</a></td>
                 </tr>
               </tbody>
             </table>
@@ -93,25 +95,12 @@
             <h1>README</h1>
             <p><br><br></p>
             <div class="readme">
-              <h2>MIPSym 2.05.1519 - Windows - 2020-03-27</h2>
+              <h2>MIPSym 2.05.1519 - Windows - 2020-04-12</h2>
 <p>This is the Windows version of MIPSym, a simulator for the MIPS R2000/R3000 processor.</p>
-<h3>VERIFY DOWNLOAD INTEGRITY:</h3>
-<p>At <a href="http://www.MIPSym.com">MIPSym.com</a>, you will find sha1 and sha256 checksums of your download.
-You can verify that your download was not altered in transit with the built-in 
-certUtil utility. Open a command prompt, navigate to the directory to which 
-you downloaded MIPSym, and type:</p>
-<div class="codehilite"><pre><span></span><code>certUtil -hashfile MIPSym_x.xx.xxxx_Installer.exe SHA1
-certUtil -hashfile MIPSym_x.xx.xxxx_Installer.exe SHA256
-</code></pre></div>
-
-
-<p>If the output of these commands differs from what you see on the website, you
-should try to download the file again.</p>
 <h3>INSTALLATION:</h3>
 <p>Please run the program <code>MIPSym_x.xx.xxxx_Installer.exe</code>. This will install the
 program and an uninstaller at <code>C:\Program Files (x86)\MIPSym2</code> by default.</p>
-<p>The installer includes a checkbox option to associate <code>.asm</code> files with MIPSym. 
-Keep in mind that this function may not work as intended.</p>
+<p>The installer includes a checkbox option to associate <code>.asm</code> files with MIPSym. </p>
 <p>After you begin using the program, it will store some settings data at:
 <code>C:\Users\%username%\AppData\Roaming\MIPSym\prefs.json</code></p>
 <h4>DISCLAIMER:</h4>
@@ -128,6 +117,10 @@ the MIPSymCLI shortcut will launch a Windows terminal with an environment set up
 to make it easier to run MIPSym from the command line. 
 See the <a href="http://www.sci.csueastbay.edu/~rdoering/mipsym/Documentation.html">MIPSym documentation</a> 
 for more details.</p>
+<h3>KNOWN BUGS:</h3>
+<p>Please see the <a href="https://github.com/mipsym/MIPSym-issues/issues">bug tracker</a>
+for a list of known issues with MIPSym. If you discover new issues, please 
+submit them there.</p>
 <h3>TEXT EDITOR SUPPORT:</h3>
 <h4>Notepad++:</h4>
 <p>In your install directory, you will find a file called <code>MIPSasmNotepad++.xml</code>.
@@ -165,18 +158,20 @@ A copy of the license is available in your install directory at
               <thead>
                 <tr>
                   <th>Download Link</th>
+                  <th>Version</th>
                   <th>Size</th>
                   <th>Upload Date</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td><a href=""></a></td>
-                  <td></td>
-                  <td></td>
+                  <td><a href="https://github.com/mipsym/mipsym/releases/download/2.05.1519/MIPSym_Mac-x86_64.dmg">MIPSym_Mac-x86_64.dmg</a></td>
+                  <td>2.05.1519</td>
+                  <td>19.47M</td>
+                  <td>2021-04-14</td>
                 </tr>
                 <tr>
-                  <td colspan="3"><a href="https://github.com/mipsym/mipsym/releases">All releases</a></td>
+                  <td colspan="4"><a href="https://github.com/mipsym/mipsym/releases">All releases</a></td>
                 </tr>
               </tbody>
             </table>
@@ -185,20 +180,8 @@ A copy of the license is available in your install directory at
             <h1>README</h1>
             <p><br><br></p>
             <div class="readme">
-              <h2>MIPSym 2.05.1519 - Mac - 2021-03-27</h2>
+              <h2>MIPSym 2.05.1519 - Mac - 2021-04-12</h2>
 <p>This is the Mac version of MIPSym, a simulator for the MIPS R2000/R3000 processor.</p>
-<h3>VERIFY DOWNLOAD INTEGRITY:</h3>
-<p>At <a href="http://www.MIPSym.com">MIPSym.com</a>, you will find sha1 and sha256 checksums of your download.
-You can verify that your download was not altered in transit with the built-in 
-shasum utility. Open a terminal, navigate to the directory to which you 
-downloaded MIPSym, and type:</p>
-<div class="codehilite"><pre><span></span><code>$ shasum -a <span class="m">1</span> MIPSym_x.xx.xxxx.dmg
-$ shasum -a <span class="m">256</span> MIPSym_x.xx.xxxx.dmg
-</code></pre></div>
-
-
-<p>If the output of these commands differs from what you see on the website, you
-should try to download the file again.</p>
 <h3>INSTALLATION:</h3>
 <p>Please download the <code>MIPSym_x.xx.xxxx.dmg</code> file and open it. You will find the
 MIPSym application inside. To install, drag the application to your
@@ -214,22 +197,9 @@ OSX may complain when you try to run it. To convince OSX to run the program,
 right click on <code>MIPSym</code>, click on <strong>'Open'</strong>, and then click on <strong>'OK'</strong>. 
 The next time you need to run MIPSym, you will be able to double-click on it.</p>
 <h3>KNOWN BUGS:</h3>
-<p>There is a known bug that causes the console to display the wrong number of 
-columns and rows of text; if you experience this bug, you can fix the console 
-display by zooming in or out on the text (hold the Command key and scroll up or 
-down with your mouse wheel).</p>
-<p>If you are having trouble getting the assembler to run, make sure to click on
-<strong>'View &gt; Messages'</strong>; this display may give you some idea of what's going wrong.</p>
-<p>There may be alternate versions of the assembler in the
-<code>/Applications/MIPSym.app/Contents/MacOS/asm/</code> directory.</p>
-<p>To use an alternate assembler, set the assembler path by clicking
-<strong>'Settings &gt; Set Assembler Path'</strong>, or by editing your settings file at:
-<code>/Users/$USER/Library/Application Support/MIPSym/prefs.json</code></p>
-<p>If all else fails, you can run the assembler from a terminal. The syntax is:</p>
-<div class="codehilite"><pre><span></span><code>$ assembler AsmProgram.asm
-</code></pre></div>
-
-
+<p>Please see the <a href="https://github.com/mipsym/MIPSym-issues/issues">bug tracker</a>
+for a list of known issues with MIPSym. If you discover new issues, please
+submit them there.</p>
 <h3>TEXT EDITOR SUPPORT:</h3>
 <h4>SublimeText:</h4>
 <p>Open the Command Palette (<kbd><kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>P</kbd></kbd>, 
@@ -257,18 +227,20 @@ A copy of the license is available in the .dmg archive at <code>DejaVuSansMono_L
               <thead>
                 <tr>
                   <th>Download Link</th>
+                  <th>Version</th>
                   <th>Size</th>
                   <th>Upload Date</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td><a href=""></a></td>
-                  <td></td>
-                  <td></td>
+                  <td><a href="https://github.com/mipsym/mipsym/releases/download/2.05.1519/MIPSym_Linux-x86_64.tar.gz">MIPSym_Linux-x86_64.tar.gz</a></td>
+                  <td>2.05.1519</td>
+                  <td>43.23M</td>
+                  <td>2021-04-14</td>
                 </tr>
                 <tr>
-                  <td colspan="3"><a href="https://github.com/mipsym/mipsym/releases">All releases</a></td>
+                  <td colspan="4"><a href="https://github.com/mipsym/mipsym/releases">All releases</a></td>
                 </tr>
               </tbody>
             </table>
@@ -277,20 +249,8 @@ A copy of the license is available in the .dmg archive at <code>DejaVuSansMono_L
             <h1>README</h1>
             <p><br><br></p>
             <div class="readme">
-              <h2>MIPSym 2.05.1519 - Linux - 2021-03-27</h2>
+              <h2>MIPSym 2.05.1519 - Linux - 2021-04-12</h2>
 <p>This is the Linux version of MIPSym, a simulator for the MIPS R2000/R3000 processor.</p>
-<h3>VERIFY DOWNLOAD INTEGRITY:</h3>
-<p>At <a href="http://www.MIPSym.com">MIPSym.com</a>, you will find sha1 and sha256 checksums 
-of your download. You can verify that your download was not altered in transit 
-with the built-in sha1sum and sha256sum utilities. Open a terminal, navigate to 
-the directory to which you downloaded MIPSym, and type:</p>
-<div class="codehilite"><pre><span></span><code>$ sha1sum MIPSym_x.xx.xxxx.tar.gz
-$ sha256sum MIPSym_x.xx.xxxx.tar.gz
-</code></pre></div>
-
-
-<p>If the output of these commands differs from what you see on the website, you
-should try to download the file again.</p>
 <h3>REQUIREMENTS:</h3>
 <p>Before you run MIPSym, make sure your system satisfies these requirements.</p>
 <ul>
@@ -350,14 +310,9 @@ available from desktop menus:</p>
 and is documented in more detail at 
 <a href="https://developer.gnome.org/integration-guide/stable/desktop-files.html.en">developer.gnome.org</a>.</p>
 <h3>KNOWN BUGS:</h3>
-<p>There is a known bug that causes the console to display the wrong number of 
-columns and rows of text; if you experience this bug, you can fix the console 
-display by zooming in or out on the text (hold the Ctrl key and scroll up or 
-down with your mouse wheel).</p>
-<p>MIPSym is known to have display errors on some high DPI displays, including
-4K monitors. MIPSym is designed for displays with the resolutions 1920x1080 
-and 1024x768. If your display is set to a higher resolution, some features 
-may not be usable. </p>
+<p>Please see the <a href="https://github.com/mipsym/MIPSym-issues/issues">bug tracker</a>
+for a list of known issues with MIPSym. If you discover new issues, please
+submit them there.</p>
 <h3>TROUBLESHOOTING:</h3>
 <h4>Problems opening AppImages</h4>
 <p>If you are unable to open MIPSym at all, your system may be unable to open 
@@ -389,8 +344,8 @@ conserve disk space. This shared object can be installed by installing g++-5 or
 newer using your package manager.</p>
 <p>You can run <code>ldd</code> to see the full list of what shared objects these programs 
 need in order to run:</p>
-<div class="codehilite"><pre><span></span><code>$ ldd ./squashfs-root/usr/bin/MIPSym        <span class="c1"># show objects required by MIPSym</span>
-$ ldd ./squashfs-root/usr/asm/assembler     <span class="c1"># show objects required by assembler</span>
+<div class="codehilite"><pre><span></span><code>$ ldd ./squashfs-root/usr/bin/MIPSym          <span class="c1"># show objects required by MIPSym</span>
+$ ldd ./squashfs-root/usr/asm/MIPSymAssembler <span class="c1"># show objects required by assembler</span>
 </code></pre></div>
 
 
@@ -406,7 +361,7 @@ set the assembler path manually by clicking <strong>'Settings &gt; Set Assembler
 <strong>'View &gt; Messages'</strong>; this display may give you some idea of what's going wrong.</p>
 <p>If all else fails, you can run the assembler from a terminal, after extracting 
 the AppImage (described above). The syntax is:</p>
-<div class="codehilite"><pre><span></span><code>$ assembler AsmProgram.asm
+<div class="codehilite"><pre><span></span><code>$ MIPSymAssembler AsmProgram.asm
 </code></pre></div>
 
 
@@ -452,6 +407,6 @@ A copy of the license is available in your install directory at <code>DejaVuSans
   </div> <!-- container -->
   
 <footer class="footer">
-  <span>Last update: 2021 April 08</span>
+  <span>Last update: 2021 April 14</span>
 </footer></body>
 </html>
