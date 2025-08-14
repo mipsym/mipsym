@@ -1,6 +1,6 @@
 <Updates>
- <ApplicationName>MIPSym</ApplicationName>
- <ApplicationVersion>2.04.1338</ApplicationVersion>
+ <ApplicationName>{AnyApplication}</ApplicationName>
+ <ApplicationVersion>1.0.0</ApplicationVersion>
  <Checksum>true</Checksum>
  <PackageUpdate>
   <Name>com.mipsym.simgui</Name>
@@ -11,11 +11,9 @@
   <Default>true</Default>
   <ForcedInstallation>true</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="19258204" OS="Any" UncompressedSize="74338527"/>
+  <UpdateFile OS="Any" CompressedSize="19677378" UncompressedSize="76198228"/>
   <DownloadableArchives>MIPSym_pkg.7z</DownloadableArchives>
   <UserInterfaces>ShortcutsNFileAssociationForm.ui,PostInstallForm.ui</UserInterfaces>
-  <SHA1>758db00d2059aacb53e7af3fec2651d6ba3a09b7</SHA1>
+  <SHA1>281907999bf5c326dfaf104f51b3dd2e0c8c7c2a</SHA1>
  </PackageUpdate>
- <SHA1>1a6846816797bedc2b9bb435173b2950b2cf143f</SHA1>
- <MetadataName>2.10.1523meta.7z</MetadataName>
 </Updates>
